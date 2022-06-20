@@ -1,0 +1,8 @@
+<div class="editor-wrapper">
+  <div class="editor-text">
+    <app-box-editor (changeContent)="setContent($event)"></app-box-editor>
+  </div>
+  <div class="editor-markdown">
+    <app-box-preview [content]="content"></app-box-preview>
+  </div>
+</div>
